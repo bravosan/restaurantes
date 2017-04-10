@@ -337,3 +337,29 @@ p.titulos1{
 .form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
     display: none;   
 }
+
+.start-hotel{
+                color: yellow;
+            }
+            .hoteles{
+                margin-top: 20px;
+                height: 250px;
+                border-bottom: 1px solid #ddd;
+            }
+            .est{
+                margin-top: -10px;
+            }
+
+            .oferta{
+            }
+
+            .espa{
+                margin-top: 5px;
+            }
+
+            .formulario{
+                background: green;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                border-radius: 10%;
+            }
