@@ -6,7 +6,7 @@
 	font-family: "Fredoka One";
 	font-size: 6em;
 	font-weight: bold;
-	text-shadow: 4px 4px 2px #1c7cc4;
+	text-shadow: 4px 4px 2px #2f4050;
 }
 
 h1.empresa_cambio{
@@ -66,12 +66,21 @@ h1.empresa_cambio{
 	background:#1c7cc4; 
 }
 
-/*.logo_cuadro, .empresa_cuadro{
+.header-full-screen p.font-rest1 {
+    font-size: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.empresa_cuadro{
 	margin-top: 1em;
-	background: #000;
 	padding: 0.3em 0.5em;
 	display: inline-block;
-}*/
+}
+
 
 .nosotros_stylos{
 	background: #3b5998;
@@ -292,4 +301,17 @@ p.titulos1{
 	color: #fff;
 	padding: 2px 0;
 	margin-right: 20px;
+}
+
+.input-buscar{
+	border-radius: 8px;
+	border: 8px solid rbga(0,0,0,0.4);
+}
+
+.color-boton{
+	background: #2f4050;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
 }
