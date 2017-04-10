@@ -216,3 +216,8 @@
   -webkit-animation: mapback_spin 15s linear infinite;
   animation: mapback_spin 15s linear infinite;
 }
+
+.img-logo{
+  width: 135px;
+  
+}

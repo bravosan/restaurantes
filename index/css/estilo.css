@@ -17,8 +17,9 @@ h1.empresa_cambio{
 	
 }
 
-.navbar-estilo navbar-nav li a{
-	color: #fff;
+.navbar-estilo{
+	background-color: #1c7cc4;
+    border-color: #fff;
 }
 
 .empresa{
