@@ -3,6 +3,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 0;
+    height: 500px;
 }
 
 .background-maspop {
@@ -53,7 +54,7 @@
 }
 
 .img-logo {
-    padding: 8px
+    padding: 10px;
 }
 
 .cuadro-1 {
@@ -79,7 +80,7 @@
 .loginmodal-container {
   padding: 30px;
   max-width: 500px;
-  width: 100% !important;
+  width: 100%;
   background-color: #F7F7F7;
   margin: 0 auto;
   border-radius: 2px;
@@ -103,7 +104,7 @@
   position: relative;
 }
 
-.loginmodal-container input[type=text], input[type=password] {
+.loginmodal-container{
   height: 44px;
   font-size: 16px;
   width: 100%;

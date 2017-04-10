@@ -254,7 +254,42 @@ div button.enviar-stylos{
 }
 
 .butoon-ingresar{
-	width: 142px;
-	height: 50px;
-	margin-top: 50%;
+	width: 90px;
+	height: 36px;
+	margin: 25px 0;
+	padding: 0;
+	background: #2f4050;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	border: 2px solid #1c7cc4;
+}
+
+.input-estilo{
+	border: 2px solid #1c7cc4;
+	margin: 0;
+	width: 190px;
+	padding: 3px;
+	margin-right: 20px;
+}
+.input-estilo:focus{
+	border: 2px solid #1c7cc4;
+	margin: 0;
+	width: 190px;
+	padding: 3px;
+	margin-right: 20px;
+}
+p.titulos1{
+	margin: 0; 
+	color: #fff;
+	padding: 0;
+	margin-right: 20px;
+}
+
+.navbar-nav>li>a.titulos2{
+	margin: 0;
+	text-decoration: none;
+	color: #fff;
+	padding: 2px 0;
+	margin-right: 20px;
 }
