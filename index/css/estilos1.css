@@ -147,3 +147,87 @@
   background-attachment: fixed;
   background-position: 0 0;
 }
+
+@keyframes mapfront_spin {
+  0% {
+    background-position: 1400px 0%;
+  }
+  
+  100% {
+    background-position: 0 0%;
+  }
+}
+
+@keyframes mapback_spin {
+  0% {
+    background-position: 0 0%;
+  }
+  
+  100% {
+    background-position: 1400px 0%;
+  }
+}
+
+@-webkit-keyframes mapfront_spin {
+  0% {
+    background-position: 1400px 0%;
+  }
+  
+  100% {
+    background-position: 0 0%;
+  }
+}
+
+@-webkit-keyframes mapback_spin {
+  0% {
+    background-position: 0 0%;
+  }
+  
+  100% {
+    background-position: 1400px 0%;
+  }
+}
+
+.globo {
+  width: 700px;
+  height: 700px;
+  position: relative;
+}
+.frontal {
+  width: 700px;
+  height: 700px;
+  background: url("../images/11.png");
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.back {
+  width: 700px;
+  height: 700px;
+  background: url("../images/22.png");;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.mapfront, .mapback {
+  border-radius: 200px;
+  width: 570px;
+  height: 530px;
+  position: absolute;
+  top: 80px;
+  left: 70px;
+  z-index: 4;
+}
+.mapfront {
+  background: url("../images/33.png") repeat-x;
+  -webkit-animation: mapfront_spin 15s linear infinite;
+  animation: mapfront_spin 15s linear infinite;
+}
+.mapback {
+  background: url("../images/44.png") repeat-x;
+  position: absolute;
+  -webkit-animation: mapback_spin 15s linear infinite;
+  animation: mapback_spin 15s linear infinite;
+}
